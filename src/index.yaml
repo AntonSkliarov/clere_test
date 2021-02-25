@@ -3,5 +3,3 @@ ProjectTitle: clere-test
 PageList:
 - file: page.html
   ready: 50
-- file: second_page.html
-  ready: 50

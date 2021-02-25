@@ -1,0 +1,70 @@
+.incredible-jewerly
+  position: relative
+
+  height: 1555px
+
+  &__inner
+    max-width: 1400px
+    margin: 0 auto
+
+  &__title
+    margin-bottom: 120px
+
+    line-height: 117px
+    white-space: break-spaces
+
+  &__text-wrapper
+    position: relative
+    left: 105px
+
+    width: 310px
+
+  &__text
+    font-size: 16px
+    line-height: 22.4px
+    color: $text-grey-color
+
+  &__main-image
+    position: absolute
+    top: 70px
+    right: 0
+    z-index: -50
+
+    width: 900px
+    height: 1315px
+
+    background-image: url('/img/inredible-jewerly/main.jpg')
+    background-repeat: no-repeat
+    background-position: 100% 50%
+
+    transform: rotateY(180deg)
+
+  &__pattern
+    position: absolute
+    bottom: -45px
+    left: 20px
+
+  &__secondary-image
+    position: absolute
+    left: 0
+    bottom: 0
+  
+    width: 350px
+    height: 345px
+
+    background-image: url('/img/inredible-jewerly/secondary.png')
+    background-size: 100%
+    background-repeat: no-repeat
+
+    &::after
+      content: ''
+
+      position: absolute
+      z-index: -50
+
+      width: 424px
+      height: 1px
+
+      background-color: $main-color
+
+      transform: rotate(-45deg)
