@@ -1,1 +1,23 @@
-<p>Hello from partials/_header.html</p>
+<!-- BEGIN header -->
+<header class="header">
+  <div class="logo header__logo">
+    {{mixins.logo('logo')}}
+  </div>
+
+<!-- BEGIN navigation -->
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__item">Ювелирный дом</li>
+      <li class="navigation__item">Изделия</li>
+      <li class="navigation__item">Услуги</li>
+      <li class="navigation__item">Инвестиции</li>
+      <li class="navigation__item">Контакты</li>
+    </ul>
+  </nav>
+<!-- END navigation -->
+
+  <div class="menu">
+    =
+  </div>
+</header>
+<!-- END header -->
