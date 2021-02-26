@@ -1,0 +1,47 @@
+.video
+  max-height: 1140px
+
+  &__content
+    max-height: 1000px
+    width: 100%
+    margin-bottom: -10px
+
+
+  &__quote
+    width: 100%
+    background-color: $gold-background-color
+
+  &__quote-wrapper
+    position: relative
+    text-align: center
+
+    max-width: 1034px
+    margin: 0 auto
+    padding: 72px 0
+
+  &__quote-text
+    +fkudr
+    font-size: 40px
+    line-height: 40px
+    color: #000
+
+  &__quote-text::after,
+  &__quote-text::before
+    content: url('/img/quotes/quotes.svg')
+
+    height: 20px
+    width: 20px
+
+  &__quote-text::before
+    position: relative
+    bottom: 20px
+    right: 10px
+
+  &__quote-text::after
+    position: relative
+    top: 10px
+    left: 10px
+
+  &__pattern
+    position: absolute
+    bottom: -45px
