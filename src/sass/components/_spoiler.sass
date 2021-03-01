@@ -1,0 +1,75 @@
+.spoiler
+  &__services-list
+    padding-top: 4px
+    padding-bottom: 4px
+    margin: 0 auto 120px
+    max-width: 1400px
+
+    border-top: 1px solid $border-color
+    border-bottom: 1px solid $border-color
+
+  &__services-item
+    height: 200px
+
+    border-bottom: 1px solid $border-color
+
+    &:first-child
+      border-top: 1px solid $border-color
+
+  &__services-item-content
+    position: relative
+    display: flex
+
+    padding-top: 40px
+
+  &__number
+    margin-right: 207px
+
+    +fkudr
+    font-size: 40px
+    color: $main-color
+
+    &::after
+      content: ''
+
+      position: absolute
+      top: 90px
+      left: 25px
+
+      width: 70px
+      height: 1px
+
+      background-color: $main-color
+
+      transform: rotate(-60deg)
+
+  &__title
+    line-height: 44px
+
+  &__text-wrapper
+    max-width: 260px
+    margin-right: 300px
+    margin-left: auto
+
+  &__text
+    font-size: 16px
+    line-height: 22px
+    color: $text-grey-color
+
+  &__arrow
+    position: absolute
+    right: 0
+    bottom: -12px
+
+    cursor: pointer
+
+  &__link-wrapper
+    display: flex
+    justify-content: center
+
+  &__link
+    text-transform: uppercase
+    text-decoration: underline
+    font-size: 16px
+    line-height: 19px
+    color: $main-color
